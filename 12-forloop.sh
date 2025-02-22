@@ -2,5 +2,6 @@
 
 for i in {1..20}
 do
-    echo $i
+    SUM=$(($i+$i))
+    echo $SUM
 done
