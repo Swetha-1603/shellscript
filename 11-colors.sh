@@ -31,3 +31,5 @@ VALIDATE $? "installing MYSQL"
 
 dnf install docker -y &>>$LOGFILE
 VALIDATE $? "installing Git"
+
+echo "Print script name :: $SCRIPTNAME" 
