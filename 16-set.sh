@@ -9,7 +9,7 @@ trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
 
 USERID=$(id -u)
 
-if[ $USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then 
     echo "Please run this script with root access."
     exit 1
